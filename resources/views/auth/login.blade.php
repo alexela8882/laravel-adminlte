@@ -5,7 +5,7 @@
 @section('content')
 <div class="login-box">
   <div class="login-logo">
-    <a href="{{ route('home') }}"><b>SUPPLIER</b>PORTAL</a>
+    <a href="{{ route('home') }}"><b>Laravel</b>AdminLTE</a>
   </div>
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>

@@ -1,0 +1,61 @@
+03/12/19 14:25
+- Initial setup
+
+03/15/19 10:37
+- AjaxCrudDataTables added in public/plugins (Custom Ajax CRUD for datatables)
+- Implemented in users view with UserController@store_ajax method
+
+03/16/19 09:00
+- Company model, controller, migration & view added
+
+03/20/19 14:14
+- File model, controller, migration & view added
+
+03/21/19 09:50
+- Download, edit, update, trash & delete method added in FileController
+
+03/21/19 11:40
+- View added in files.view & view method added in FileController
+- Permissions seeder updated
+
+03/21/19 13:40
+- .htaccess added in every folder to prevent unauthorized access
+
+03/21/19 15:22
+- Company field added in users.edit view
+- UserController@edit & UserController@update updated
+
+03/23/19 09:34
+- users.changepass view changed to users.profile
+- UserController@changepass changed to UserController@profile
+- UserController@profile_update added
+- web.php updated based on changes
+
+03/23/19 15:47
+- FileSetting model, controller, migration & view added
+- SweetAlert2 used for email notification in files.settings view
+
+03/25/19 10:30
+- Delete file_settings where user has updated profile without extn. email
+- Setting default value of checkbox in file settings when action cancelled
+
+03/25/19 10:53
+- Bug in checking profile extn emails if empty fixed
+
+03/26/19 10:58
+- Sending email to extn_email1, extn_email2 & extn_email3 when uploading files
+
+03/27/19 13:27
+- Changed swal toastr message when activating and deactivating email notification
+
+03/28/19 08:58
+- Bug fixed in web.php middleware inside Route::group of users
+
+03/28/19 09:42
+- $sender_email variable in FileController@store_ajax set default to avoid breaking email sending
+
+03/28/19 13:50
+- Bug fixed in CompanyController@delete after the user of that company was deleted
+
+03/29/19 09:00
+- email field in users replaced with username; views, controller & migration updated

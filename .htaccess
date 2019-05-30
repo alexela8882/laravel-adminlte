@@ -1,0 +1,4 @@
+<FilesMatch "^\.env|composer.json|server.php">
+Order allow,deny
+Deny from all
+</FilesMatch>

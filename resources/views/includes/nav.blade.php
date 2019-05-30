@@ -1,8 +1,8 @@
 <header class="main-header">
   <a href="{{ route('home') }}" class="logo">
-    <span class="logo-mini"><b>S</b>PL</span>
+    <span class="logo-mini"><b>L</b>TE</span>
     <span class="logo-lg"><b>
-      SUPPLIER</b>PORTAL
+      Laravel</b>AdminLTE
     </span>
   </a>
   <nav class="navbar navbar-static-top">
@@ -45,13 +45,13 @@
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu">
           <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-            <img src="{{ asset('images/addessa_logo.png') }}" class="user-image" alt="User Image">
+            <img src="{{ asset('images/laravel-logo.png') }}" class="user-image" alt="User Image">
             <span class="hidden-xs">{{ \Auth::user()->first_name }} {{ \Auth::user()->last_name }}</span>
           </a>
           <ul class="dropdown-menu">
             <!-- User image -->
             <li class="user-header">
-              <img src="{{ asset('images/addessa_logo.png') }}" class="img-circle" alt="User Image">
+              <img src="{{ asset('images/laravel-logo.png') }}" class="img-circle" alt="User Image">
               <p>
                 <strong>{{ \Auth::user()->username }}</strong>
               </p>

@@ -223,7 +223,7 @@ class FileController extends Controller
                     ->first();
 
         $sender = \Auth::user()->first_name . ' ' . \Auth::user()->last_name;
-        $sender_email = \Auth::user()->extn_email1 ? \Auth::user()->extn_email1 : 'marylouursante@addessa.com';
+        $sender_email = \Auth::user()->extn_email1 ? \Auth::user()->extn_email1 : 'john@doe.com';
         if ($file->to) {
           $to = $file->to_user->first_name . ' ' . $file->to_user->last_name;
         } else {
@@ -259,7 +259,7 @@ class FileController extends Controller
 
         if (!empty($email_addresses)) {
           $data = array(
-            'sender' => 'ADDESSA SUPPLIER PORTAL - ' . \Carbon\Carbon::now()->toDateTimeString(),
+            'sender' => 'Laravel+AdminLTE - ' . \Carbon\Carbon::now()->toDateTimeString(),
             'subject' => $req->remarks,
             'file' => $file_name,
             'to' => $to,

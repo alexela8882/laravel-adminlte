@@ -15,5 +15,10 @@ class RolesTableSeeder extends Seeder
             'name' => 'Super Admin',
             'guard_name' => 'web',
         ]);
+
+        DB::table('roles')->insert([
+            'name' => 'User',
+            'guard_name' => 'web',
+        ]);
     }
 }

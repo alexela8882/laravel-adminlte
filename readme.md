@@ -34,7 +34,7 @@ $ php -r "copy('.env.example', '.env');"
 
 ### Migrate & Seeder
 
-Run this command after you done setting up your database and updating your `.env` file:
+Edit your `.env` file and run this command:
 
 ```sh
 $ php artisan migrate

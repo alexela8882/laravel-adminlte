@@ -56,3 +56,13 @@ $ php artisan serve
 ## All Done!
 
 You can now visit your website in [http://localhost:8000](http://localhost:8000).
+
+# EDITED
+
+I included a simple File Sending System to demonstrate the `spatie/laravel-permission`.
+Everything has been setup when you already done the above installation.
+
+Make sure you run `php artisan migrate` and `php artisan db:seed` before you login:
+
+1. Super Admin - `username: admin / password: admin`
+2. User - `username: user / password: user`

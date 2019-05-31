@@ -1,3 +1,5 @@
+<img src="/public/images/preview.png" alt="Laravuetify preview image"/>
+
 # About
 
 Laravel + AdminLTE is a ready to use Laravel app with [AdminLTE](https://adminlte.io/) Free premium.

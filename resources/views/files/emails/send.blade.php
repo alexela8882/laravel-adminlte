@@ -2,8 +2,8 @@
 
 	<strong>Hi! {{ $to }}</strong><br><br>
 
-	<em><u>{{ $file }}</u></em> has been uploaded to your account in supplier portal. Please login
-	<a href="https://portal.addessa.com">here</a> to download your file.
+	<em><u>{{ $file }}</u></em> has been uploaded to your account in Laravel+AdminLTE. Please login
+	<a href="http://localhost:8000">here</a> to download your file.
 
 	<br><br>
 	<strong>

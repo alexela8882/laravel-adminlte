@@ -2,7 +2,7 @@
 
 # About
 
-Laravel + AdminLTE is a ready to use Laravel app with [AdminLTE](https://adminlte.io/) Free premium.
+Laravel + AdminLTE is a ready to use Laravel with [AdminLTE](https://adminlte.io/) Free premium boilerplate.
 
 This also includes the following:
 

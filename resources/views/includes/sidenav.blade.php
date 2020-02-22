@@ -7,7 +7,7 @@
       <div class="pull-left info">
         <p>{{ \Auth::user()->first_name }} {{ \Auth::user()->last_name }}</p>
         <a href="#"><i class="fa fa-circle text-success"></i>
-          {{ count(\Auth::user()->company) > 0 ? \Auth::user()->company->name : 'Not Assigned' }}
+          {{ \Auth::user()->company > 0 ? \Auth::user()->company->name : 'Not Assigned' }}
         </a>
       </div>
     </div>

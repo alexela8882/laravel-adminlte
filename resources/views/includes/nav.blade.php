@@ -56,7 +56,7 @@
                 <strong>{{ \Auth::user()->username }}</strong>
               </p>
               <p>
-                <small>{{ count(\Auth::user()->company) > 0 ? \Auth::user()->company->name : 'Not Assigned' }}</small>
+                <small>{{ \Auth::user()->company > 0 ? \Auth::user()->company->name : 'Not Assigned' }}</small>
               </p>
             </li>
             <!-- Menu Footer-->

@@ -15,7 +15,7 @@ This also includes the following:
 ### Clone
 
 ```sh
-$ git clone https://github.com/alexela8882/laravel-material-kit.git projectname
+$ git clone https://github.com/alexela8882/laravel-adminlte.git projectname
 ```
 
 ### Composer
